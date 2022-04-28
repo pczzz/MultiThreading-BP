@@ -1,6 +1,6 @@
 # MultiThreading-BP
 
-MultiThreading-BP is a C# script for BluePrism used to prevent code execution stop due to unforseen issues with the target automated application, e.g. error popup. By running a second thread, we can "control" the application behavior and if necesarry, force quit it.
+MultiThreading-BP is a C# script for BluePrism used to prevent code execution stop due to unforseen issues with the target automated application, e.g. error popup. By running a second thread, we can prevent the main thread to stop the execution by force quiting the application.
 # Usage
 
 The whole script exists one file:
